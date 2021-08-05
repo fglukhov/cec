@@ -1,0 +1,58 @@
+
+<div class="modal fade project-modal" id="projectModal" tabindex="-1">
+  <div class="modal-dialog">
+    <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+    <div class="modal-content">
+      <div class="ajax-modal-content"></div>
+    </div>
+  </div>
+</div>
+<div class="modal fade form-modal" id="callbackModal" tabindex="-1">
+  <div class="modal-dialog">
+    <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+    <div class="modal-content">
+      <div class="form-modal-header">
+        <h2>Book a&nbsp;call</h2>
+      </div>
+      <div class="modal-form">
+        <form>
+          <div class="row">
+            <div class="col">
+              <div class="form-group">
+                <label class="placeholder" for="callback_name">Name</label>
+                <input type="text" name="callback_name" id="callback_name" required="required"/>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <label class="placeholder" for="callback_phone">Phone</label>
+                <input class="input-phone" type="text" name="callback_phone" id="callback_phone" required="required"/>
+              </div>
+            </div>
+          </div>
+          <div class="form-footer">
+            <button class="btn btn-submit" type="submit"><span>Submit</span></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade side-modal form-modal" id="successModal" tabindex="-1">
+  <div class="modal-dialog">
+    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img class="svg-inline" src="images/close.svg"/></button>
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="h2"><span>Ваша заявка успешно принята!</span></div>
+      </div>
+      <div class="modal-body">
+        <div class="text">
+          <p>Перезвоним в течение 15 минут</p>
+        </div>
+        <div class="success-modal-button">
+          <button class="btn btn-1" type="button" data-dismiss="modal" aria-label="Close">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
